@@ -1,6 +1,4 @@
 import { Flex } from "@chakra-ui/react"
-import Navbar from "./components/navbar/Navbar"
-import Footer from "./components/footer/Footer"
 
 function App() {
 
@@ -11,8 +9,6 @@ function App() {
       flexDir={'column'}
       justifyContent={'space-between'}
     >
-      <Navbar />
-      <Footer />
     </Flex>
   )
 }
